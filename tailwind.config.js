@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
@@ -14,14 +11,13 @@ export default {
         FiraCode: ['Fira Code', 'sans-serif'],
       },
       colors: {
-        'primaryDark': '#0A192F',
-        'primaryGreen': '#64FFDA',
-        'secondaryDark': '#112240',
-        'headingColor': '#CCD6F6',
-        'textColor': '#8892B0',
+        primaryDark: '#0A192F',
+        primaryGreen: '#64FFDA',
+        secondaryDark: '#112240',
+        headingColor: '#CCD6F6',
+        textColor: '#8892B0',
       },
     },
   },
   plugins: [],
 }
-

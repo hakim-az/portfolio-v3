@@ -3,29 +3,29 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-      font-family: 'Inter Bold';
-      font-weight: 'bold';
-      src: url('/fonts/Inter-Bold.ttf');
-    }
-    @font-face {
-      font-family: 'Inter Medium';
-      font-weight: 'medium';
-      src: url('/fonts/Inter-Medium.ttf');
-    }
-    @font-face {
-      font-family: 'Inter Regular';
-      font-weight: 'regular';
-      src: url('/fonts/Inter-Regular.ttf');
-    }
-    @font-face {
-      font-family: 'Inter Light';
-      font-weight: 'light';
-      src: url('/fonts/Inter-Light.ttf');
-    }
-    @font-face {
-      font-family: 'Fira Code';
-      font-weight: 'medium';
-      src: url('/fonts/FiraCode-Medium.ttf');
-    }
+  @font-face {
+    font-family: 'Inter Bold';
+    font-weight: 'bold';
+    src: url('/fonts/Inter-Bold.otf');
   }
+  @font-face {
+    font-family: 'Inter Medium';
+    font-weight: 'medium';
+    src: url('/fonts/Inter-Medium.otf');
+  }
+  @font-face {
+    font-family: 'Inter Regular';
+    font-weight: 'regular';
+    src: url('/fonts/Inter-Regular.otf');
+  }
+  @font-face {
+    font-family: 'Inter Light';
+    font-weight: 'light';
+    src: url('/fonts/Inter-Light.otf');
+  }
+  @font-face {
+    font-family: 'Fira Code';
+    font-weight: 'medium';
+    src: url('/fonts/FiraCode-Medium.otf');
+  }
+}
