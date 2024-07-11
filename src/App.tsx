@@ -1,6 +1,8 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { useState, useEffect } from 'react'
+// componeents
 import Header from './components/Header/Header'
+import HeroSection from './components/HeroSection/HeroSection'
+
 const App = () => {
   const [sectionId, setSectionId] = useState('')
 
@@ -36,6 +38,7 @@ const App = () => {
   return (
     <>
       <Header sectionId={sectionId} />
+      <HeroSection />
     </>
   )
 }

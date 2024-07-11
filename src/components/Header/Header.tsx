@@ -90,13 +90,13 @@ const Header = ({ sectionId }: PropsType) => {
         </a>
         {/* hamburger */}
         <motion.div
-          className="fixed inset-0 right-0 top-20 w-full bg-primaryDark md:hidden"
+          className="fixed inset-0 right-0 top-20 w-full bg-primaryDark md:hidden z-50"
           variants={sidebar}
         />
         {/* navlinks mobile */}
         <motion.ul
           variants={variants}
-          className="flex flex-col items-center justify-center gap-10 fixed w-full h-[calc(100vh-80px)] top-20 left-0 md:hidden">
+          className="flex flex-col items-center justify-center z-50 gap-10 fixed w-full h-[calc(100vh-80px)] top-20 left-0 md:hidden">
           {NavLinks.map((item, index) => (
             <motion.li variants={MenuItemVariants} key={index}>
               <a
